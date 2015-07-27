@@ -56,9 +56,10 @@ body {
 	border-color: #1abc9c;
 }
 
-.btn-primary:hover, .bnt-primary:active, .btn-primary:focus {
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
 	background-color: #16a085;
 	border-color: #16a085;
+	outline: none;
 }
 
 .feature img{
@@ -93,3 +94,15 @@ body {
 	background-color: rgba(0,0,0, 0.3);
 }
 
+.contact {
+	margin-top: 150px;
+}
+
+#map {
+	border-radius: 2%;
+	box-shadow: 0 0 5px #575757;
+}
+
+.address {
+text-align: middle;
+}
