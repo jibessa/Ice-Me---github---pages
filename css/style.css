@@ -51,12 +51,13 @@ body {
 	display: inline-block;
 }
 
-.btn-primary {
+.btn-primary, .btn-primary:focus {
 	background-color: #1abc9c;
 	border-color: #1abc9c;
+	outline: none;
 }
 
-.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+.btn-primary:hover, .btn-primary:active {
 	background-color: #16a085;
 	border-color: #16a085;
 	outline: none;
